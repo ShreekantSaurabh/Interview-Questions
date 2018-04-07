@@ -1,0 +1,101 @@
+Note:
+1. These questions has been asked based on my job experience and resume.
+2. Many questions are repeating that means it has been asked oftenly to me.
+
+Enjoy!!
+
+Machine learning:
+1. How to remove overfitting. Regularization technique, Cross validation.
+2. How to find the root element of decision tree
+3. What is correlation, variance and covariance
+4. what is linear regression
+5. what is random forest
+6. Hypothesis testing. type 1 & 2 error.
+7. NLTK, TM library in R. How to clean text - stemming, stopwords removal, comma removal, converting to lowercase etc.
+8. Difference between regression/Classification algo and tree algo. ---tree algo has non-linear data point distribution
+9. K-means, Hierarchical clustering . Difference between them. In case of outliers which clustering is to be done
+10. Explain Logistic regression with equation and diagram
+11. Assumptions for Linear Regression. -- Homoscedacity(Error must have constant variance), Error must be normally distributed, Target must not be of classification type.
+12. Bias - Variance Tradeoff
+13. What is interaction variable and interaction effect in statistics.
+14. what is tf-idf. how it is different from bag of words.
+15. What is difference between equation and a model.
+16. What is difference between K-means and Hierarchical clustering.
+17. What is basic difference between ML and DL models.
+18. Different techniques used in Time Series Analysis
+19. Logistic regression.
+20. what is differenence between Training set, validation set and testing set.
+21. what is step wise regression.
+22. why logistic regression is called as regression when it is a classification technique.
+23. what are different error functions used for regression and classification techniques used in ML.
+
+-----------------------------------------------------------------------------------------------------------
+
+Deep Learning:
+1. LSTM
+2. CNN
+3. What is the use of activation function in Neural Networks.
+4. How to extract text from images. How to get the amount value written on a bank cheque.
+5. Chatbot implementation - NLP, RNN, Greedy approach, Beam seach approach
+6. Why do we use dropout regularization in ANN. why does dropout regularization works.
+7. Grid search mechanism- Hyper parameter tuning.
+8. Convolution Neural Network
+9. How do u decide no. of hidden layers in neural network to keep?
+10. Which all Error function and optimization functions are used for Neural networks.
+11. What are the blocks of RNN
+12. What is Deep-NLP
+13. What is Stochastic Gradient descent. How it works.
+14. CNN
+15. Grid search technique
+16. what is the drawback of CNN? - if the edges order has been changed then also it will detect that image as correct image.
+17. what is capsule network. (Drawback of CNN is handled in this)
+18. Explain LSTM
+19. How the weights of the Neural Network is decided.
+20. Explain ADAM optimizer and which degree differential equation it uses.
+21. what happens when global maxima is achieved in case of gradient descent.
+22. RNN, LSTM
+23. How you do model evaluation (how good/bad model is working) in case of RNN and CNN. ---> Cross entropy in case of CNN.
+24. What is convolution in CNN. why we do convolution. why not normal matrix multiplication.
+25. what is image density in case of input image in CNN ---> pixels per inch.
+26. What is difference between sigmoid and tanh activation function.
+27. What is activation function and why it is used.
+28. What are the steps of CNN.
+29. CNN
+30. Vanishing Gradient, Exploding gradient
+31. Leaky relu, relu, Sigmoid, tanh
+32. What is batch normalization.why does it work.
+33. What is VGG network.
+34. Dropout. why does it work. 
+35. What is transfer learning.
+36. What is reason behind vanishing gradient and exploding gradient. how it can be corrected.
+37. What is importance of activation function, gradient optimization function and error function in ANN.
+38. How Adam optimizer works.
+39. what are different error functions used for regression and classification techniques in DL
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+
+Reinforcement Learning:
+1. Explain Reinforcement learning in terms of bellman's equation.
+2. Reinforcement Learning and self driving car implementation
+3. Explain Re-inforcement Learning
+4. Reinforcement learning
+5. How to implement reward and penalty using python code.
+6. policy based learning
+7. Q-learning
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+Computer Vision:
+1. GAN
+2. Computer vision - Voila Jone Algorithm, Haar cascade, GAN, SSD
+3. How SSD works.
+4. How GAN works.
+5. Explain Viola Jones Algorithm
+6. GAN
+7. SSD
+8. Voila Jones algo.
+9. What is integral image method in VJ algorithm.
+10. What is Adaptive Boosting (Ada boost) in VJ algorithm.
+11. If no. of photos for training is less then which image recognition technique will you use.? --> SSD
+12. Explain SSD
