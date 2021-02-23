@@ -1,0 +1,79 @@
+Part 1: Exploratory Data Analysis (EDA)
+
+0. Import libraries
+1. load dataset
+2. See glimpse of dataset and list down some observations:
+	a. dataset.shape
+	b. dataset.columns and understand each columns definition
+   	c. dataset.head() and tail()
+   	d. dataset.info() or dataset.dtypes
+   	e. dataset.describe(include='all')
+
+3. Data cleaning 
+	a. Replace unusual values like special characters with NA. 
+	b. Data type conversion of variables, if required.
+	c. Compare with previous dataset.describe()
+	d. Handling missing value
+		dataset.isnull().sum()
+	e. Handling duplicate records
+		dataset.duplicated().sum()
+	f. Handling Outlier
+		Detect & Drop it using boxplot and replace it using IQR strategy for univariate outlier.
+		Drop it using sklearn.ensemble.IsolationForest for multivariate outlier.
+		
+4. Univariate Analysis:
+	1. Scatter Plot (1D)
+	2. Bar/hist plot
+	3. kde plot
+	4. Box Plot 
+
+5. Bivariate Analysis: (Generaly between Target vs. Feature or also between two features)
+	Numerical vs. Numerical
+	1. Scatterplot (2D)
+	2. correlation Heatmap / Matrix
+	3. Joint plot
+	4. Pair Plot
+	5. Line plot (time series)
+
+	Categorical vs. Numerical
+	1. Bar/hist plot
+	2. Box plot
+	3. Violin plot
+	4. Swarm/Strip plot
+
+	Categorical vs. Categorical
+	1. Bar/hist plot
+
+6. Multivariate Analysis:
+	1. Pair Plot
+	2. Joint Plot
+	3. Heatmap
+	4. Pivot table
+
+For all above steps (0 to 6) refer: 
+	1. https://www.analyticsvidhya.com/blog/2020/08/exploratory-data-analysiseda-from-scratch-in-python/
+	2. https://towardsdatascience.com/exploratory-data-analysis-in-python-c9a77dfa39ce
+	3. https://towardsdatascience.com/exploratory-data-analysis-eda-python-87178e35b14
+	4. https://towardsdatascience.com/comprehensive-guide-to-exploratory-data-analysis-of-habermans-survival-data-set-b33f0373c83a
+
+Part 2: Model Building
+
+7. Feature Engineering and Feature Generation
+8. Feature Scaling/Normalization for Numerical features
+9. Feature Encoding for Categorical features
+10. Define column names for dependent and independent features (drop irrelevant columns if required)
+11. Split dataset into training & testing sets.
+12. Model selection based on various performance metrics.
+13. Features selection 
+	a. Based on features importance obtained from Tree algorithms.
+14. Model fitting 
+15. Prediction on test set
+16. Performance metric calculations
+17. Hyper-parameter tuning to improve model performance.
+18. Under/Over-Sampling for imbalanced dataset to improve model performance.
+
+For all above steps (7 to 18) refer: 	
+	1. https://github.com/ShreekantSaurabh/Interview-Questions/blob/master/Ads%20CTR/Ads_CTR.ipynb
+	2. https://github.com/ShreekantSaurabh/Interview-Questions/blob/master/Wine%20Analysis/Wine_Solution.ipynb
+	3. https://github.com/ShreekantSaurabh/Interview-Questions/blob/master/LeadGeneration/LeadGeneration.ipynb
+	4. https://github.com/ShreekantSaurabh/Interview-Questions/tree/master/Telecom%20Customer%20Churn
