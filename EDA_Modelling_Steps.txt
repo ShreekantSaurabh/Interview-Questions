@@ -58,10 +58,10 @@ For all above steps (0 to 6) refer:
 
 Part 2: Model Building
 
-7. Feature Engineering and Feature Generation
+7. Feature Engineering and Feature Generation/Drop
 8. Feature Scaling/Normalization for Numerical features
 9. Feature Encoding for Categorical features
-10. Define column names for dependent and independent features (drop irrelevant columns if required)
+10. Define column names for dependent and independent features
 11. Split dataset into training & testing sets.
 12. Model selection based on various performance metrics.
 13. Features selection 
