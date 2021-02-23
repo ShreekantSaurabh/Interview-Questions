@@ -70,7 +70,7 @@ Part 2: Model Building
 15. Prediction on test set
 16. Performance metric calculations
 17. Hyper-parameter tuning to improve model performance.
-18. Under/Over-Sampling for imbalanced dataset to improve model performance.
+18. Under/Over-Sampling (or use SMOTE) for imbalanced dataset to improve model performance.
 
 For all above steps (7 to 18) refer: 	
 	1. https://github.com/ShreekantSaurabh/Interview-Questions/blob/master/Ads%20CTR/Ads_CTR.ipynb
